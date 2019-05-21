@@ -1,0 +1,7 @@
+.ui-mobilecarousel { overflow: hidden; visibility: visible; }
+.ui-mobilecarousel .ui-mobilecarousel-container { width: 100%; overflow-x: scroll; overflow-y: hidden; overflow-scrolling: touch; -webkit-overflow-scrolling: touch; }
+.ui-mobilecarousel .ui-mobilecarousel-body { padding-bottom: 30px; }
+.ui-mobilecarousel .row { margin: 0; }
+
+.m { margin-bottom: 20px; }
+	.bg { padding: 10px; background-color: #F0F0F0; }
