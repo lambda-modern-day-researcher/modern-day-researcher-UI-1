@@ -8,24 +8,24 @@
   
   .dropdown {
     z-index: 2;
-    position: absolute;
+    /* position: absolute; */
     left: 25px;
     cursor: pointer;
   }
   .dropdown .dropdown-button {
     padding: 15px;
-    border: 3px solid #ffffff;
-    color: #ffffff;
+    border: 3px solid blue;
+    color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
   }
   .dropdown .dropdown-button:hover {
-    background-image:  linear-gradient(blue, lightgrey);
+    background-image:  linear-gradient(blue, whitesmoke);
   }
   .dropdown .dropdown-content {
     width: 100%;
     position: absolute;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,8 +41,8 @@
     color: blue;
   }
   .dropdown .dropdown-link:hover {
-    color: #ffffff;
-    background-image:  linear-gradient(blue, lightgrey);
+    color: whitesmoke;
+    background-image:  linear-gradient(blue, whitesmoke);
   }
   .dropdown .dropdown-hidden {
     display: none;
@@ -76,9 +76,9 @@
   .tabs .tabs-link {
     padding: 20px 25px;
     font-size: 24px;
-    background-image:  linear-gradient(blue, lightgrey);
-    border-right: 1px solid white;
-    color: #ffffff;
+    background-image:  linear-gradient(blue, whitesmoke);
+    border-right: 1px solid grey;
+    color: whitesmoke;
     cursor: pointer;
   }
   .tabs .tabs-link:hover {
@@ -87,11 +87,11 @@
   .tabs .tabs-link-selected {
     z-index: 2;
     border-right: 1px solid blue;
-    background-color: #ffffff;
+    background-color: whitesmokef;
     color: black;
   }
   .tabs .tabs-link-selected:hover {
-    background-color: #ffffff;
+    background-color: whitesmoke;
   }
   body {
     background-color: whitesmoke;
@@ -102,11 +102,11 @@
   .header-container {
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  linear-gradient(blue, lightgrey);
+    background-image:  linear-gradient(blue, whitesmoke);
   }
   .header-container .header {
     height: 50px;
@@ -131,11 +131,11 @@
   .footer-container {
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  linear-gradient(blue, lightgrey);
+    background-image:  linear-gradient(blue, whitesmoke);
   }
 } 
 
@@ -150,8 +150,8 @@
     }
     .dropdown .dropdown-button {
       padding: 15px;
-      border: 3px solid #ffffff;
-      color: #ffffff;
+      border: 3px solid whitesmoke;
+      color: whitesmoke;
       font-size: 20px;
       font-weight: bold;
     }
@@ -161,7 +161,7 @@
     .dropdown .dropdown-content {
       width: 100%;
       position: absolute;
-      background-color: #ffffff;
+      background-color: whitesmoke;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -177,8 +177,8 @@
       color: blue;
     }
     .dropdown .dropdown-link:hover {
-      color: #ffffff;
-      background-image:  linear-gradient(blue, lightgrey);
+      color: whitesmoke;
+      background-image:  linear-gradient(blue, whitesmoke);
     }
     .dropdown .dropdown-hidden {
       display: none;
@@ -207,27 +207,27 @@
     }
     .tabs .tabs-links {
       display: flex;
-      background-image:  linear-gradient(blue, lightgrey);
+      background-image:  linear-gradient(blue, whitesmoke);
     }
     .tabs .tabs-link {
       padding: 20px 25px;
       font-size: 24px;
-      background-image:  linear-gradient(blue, lightgrey);
+      background-image:  linear-gradient(blue, whitesmoke);
       border-right: 1px solid white;
       color: #ffffff;
       cursor: pointer;
     }
     .tabs .tabs-link:hover {
-        background-image:  linear-gradient(blue, lightgrey);
+        background-image:  linear-gradient(blue, whitesmoke);
     }
     .tabs .tabs-link-selected {
       z-index: 2;
-      background-image:  linear-gradient(blue, lightgrey);
-      background-color: #ffffff;
+      background-image:  linear-gradient(blue, whitesmoke);
+      background-color: whitesmoke;
       color: black;
     }
     .tabs .tabs-link-selected:hover {
-      background-color: #ffffff;
+      background-color: whitesmoke;
     }
     body {
         background-color: whitesmoke;
@@ -238,11 +238,11 @@
     .header-container {
       width: 100%;
       height: 70px;
-      border-bottom: 1px solid #ffffff;
+      border-bottom: 1px solid whitesmoke;
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image:  linear-gradient(blue, lightgrey);
+      background-image:  linear-gradient(blue, whitesmoke);
     }
     .header-container .header {
         color: whitesmoke;
@@ -269,7 +269,7 @@
   .footer-container {
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
