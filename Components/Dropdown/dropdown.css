@@ -2,12 +2,14 @@
  @media (max-width: 600px) {
   
   
-  /* .dropdown {
+  .dropdown {
     z-index: 0;
     position: absolute; 
     left: 25px;
     cursor: pointer;
-  } */
+
+  }
+  
   .dropdown .dropdown-button {
     padding: 15px;
     border: 3px solid blue;
