@@ -49,9 +49,10 @@ table {
 
 /* reset ends here */
 
-@media (max-width: 800px) {
+@media (max-width: 599px) {
 
     .section {
+      /* display:hidden; */
         width: 70%;
         margin: 45px auto;
         display: flex;
@@ -74,7 +75,7 @@ table {
       }
     } 
 
-@media (min-width: 801px) {
+@media (min-width: 600px) {
 
      .section {
       width: 70%;

@@ -58,7 +58,7 @@ table {
  
  
  
-  @media (max-width: 100px) {
+  @media (max-width: 599px) {
  
   
   body {
@@ -107,7 +107,7 @@ table {
 } 
 
 
-@media (min-width: 100px) {
+@media (min-width: 600px) {
   
         
     body {
@@ -120,7 +120,6 @@ table {
       width: 100%;
       height: 90px;
       font-size: 2rem;
-      /* border-bottom: 1px solid whitesmoke; */
       display: flex;
       justify-content: center;
       align-items: center; 
@@ -128,8 +127,9 @@ table {
       background-color: rgb(226, 219, 114);
     }
     .header-container .header {
+      
       color: black;
-      height: 50px;
+      height: 18px;
     }
    
   .footer-container {
