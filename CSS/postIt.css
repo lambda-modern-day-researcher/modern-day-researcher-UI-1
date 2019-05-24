@@ -1,29 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 .postIt {
    
-   width: 80%;
+   width: 90%;
+   
    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 50px 350px;
-    margin: 20px 5px;
+   flex-wrap: wrap;
+   justify-content: center;
+
+  
+  
+  padding: 15px 0px;
+     margin:0px 0px ; 
    
   
    
 
 
-  justify-content: right;
- /*  flex-direction: row; */
+  
+ 
 
 }
  .quote-container {
-    
-   margin: 5px;
-    width: 400px;
-    min-height: 400px;
-    max-height: 400px;
-    padding: 5px 150px;
-    margin: 5px 5px;
+  
+    /* margin: 5px;
+     width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 9px 150px; */
+    margin:  15px; 
    
    position: relative; 
   } 
@@ -34,8 +38,8 @@
     width: 500px;
     margin: 0 auto;
     padding: 10px;
-    font-family: Satisfy;
-    font-size: 40px;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 35px;
     box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
   }
   
