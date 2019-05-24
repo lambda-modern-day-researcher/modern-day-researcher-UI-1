@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 .postIt {
-   
-   width: 90%;
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.photohdx.com%2Fimages%2F2016%2F03%2Fclose-up-cork-wood-texture.jpg&f=1);
+   width: 100%;
    
    display: flex;
    flex-wrap: wrap;
