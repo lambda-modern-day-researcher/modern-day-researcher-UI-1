@@ -1,9 +1,9 @@
 .flip-card {
     
     
-    width: 70%;
+    width: 50%;
     height: 300px;
-    margin: 5% 15%;
+    margin: 5% 25%;
     
     
           }
@@ -53,6 +53,11 @@
     
     background-color: rgb(226, 219, 114);
     color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     transform: rotateX(180deg);
     border: 1px solid black;
     border-radius: 20px;
