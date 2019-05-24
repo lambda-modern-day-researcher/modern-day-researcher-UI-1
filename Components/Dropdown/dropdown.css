@@ -10,13 +10,13 @@
   }
   .dropdown .dropdown-button {
     padding: 15px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
   .dropdown .dropdown-button:hover {
-    background-image:  linear-gradient(blue, whitesmoke);
+    background-image:  linear-gradient(whitesmoke);
   }
   .dropdown .dropdown-content {
     width: 100%;
@@ -26,19 +26,19 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    border: 2.5px solid blue;
+    /* border: 2.5px solid blue; */
   }
   .dropdown .dropdown-link {
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
-    color: blue;
+    color: black;
   }
   .dropdown .dropdown-link:hover {
     color: whitesmoke;
-    background-image:  linear-gradient(blue, whitesmoke);
+    background-color: whitesmoke;
   }
   .dropdown .dropdown-hidden {
     display: none;
@@ -53,26 +53,26 @@
 }
 .dropdown .dropdown-button {
   padding: 15px;
-  border: 3px solid whitesmoke;
-  color: whitesmoke;
+  border: 3px solid black;
+  color: black;
   
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px grey;
-  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px  rgb(48, 43, 43);
+  font-size: 30px;
   font-weight: bold;
 }
 .dropdown .dropdown-button:hover {
-  background-color: blue;
+  background-color:#FFFF88; 
 }
 .dropdown .dropdown-content {
   width: 100%;
   position: absolute;
-  background-color: whitesmoke;
+  background-color: rgb(235, 175, 98);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  border: 2.5px solid blue;
+  border: 2.5px solid  rgb(226, 219, 114);
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -80,11 +80,11 @@
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
-  color: blue;
+  color: black;
 }
 .dropdown .dropdown-link:hover {
-  color: whitesmoke;
-  background-image:  linear-gradient(blue, whitesmoke);
+  color: black;
+  background-color: #FFFF88;
 }
 .dropdown .dropdown-hidden {
   display: none;

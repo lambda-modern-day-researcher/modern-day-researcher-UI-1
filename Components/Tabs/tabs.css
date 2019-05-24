@@ -29,13 +29,13 @@
       
     padding: 20px 25px;
     font-size: 24px;
-    background-image:  linear-gradient(blue, whitesmoke);
+    background-color: rgb(226, 219, 114);
     border-right: 1px solid grey;
     color: whitesmoke;
     cursor: pointer;
   }
   .tabs .tabs-link:hover {
-    background-color: blue;
+    background-image: (#000000, #0f9b0f);
   }
   .tabs .tabs-link-selected {
     
@@ -73,27 +73,27 @@
   }
   .tabs .tabs-links {
     display: flex;
-    background-image:  linear-gradient(blue, whitesmoke);
+    background-color: rgb(226, 219, 114);
   }
   .tabs .tabs-link {
     padding: 20px 25px;
     font-size: 24px;
-    background-image:  linear-gradient(blue, whitesmoke);
-    border-right: 1px solid whitesmoke;
-    color: #ffffff;
+    background-color: rgb(226, 219, 114);
+    border-right: 1px solid black;
+    color: black;
     cursor: pointer;
   }
   .tabs .tabs-link:hover {
-      background-image:  linear-gradient(blue, whitesmoke);
+    background-color: #FFFF88;
   }
   .tabs .tabs-link-selected {
     z-index: 2;
-    background-image:  linear-gradient(blue, whitesmoke);
-    background-color: whitesmoke;
+    background-color: rgb(226, 219, 114);
+    background-color: #FFFF88;
     color: black;
   }
   .tabs .tabs-link-selected:hover {
-    background-color: whitesmoke;
+    background-color: #FFFF88;
   }
 
 }
