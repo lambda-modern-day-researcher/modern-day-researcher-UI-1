@@ -70,7 +70,7 @@ table {
         
         font-size: 20px;
         padding-bottom: 10px;
-        font-weight: bold;
+        /* font-weight: bold; */
         
       }
     } 
@@ -78,7 +78,7 @@ table {
 @media (min-width: 600px) {
 
      .section {
-      width: 70%;
+      width: 80%;
       margin: 45px auto;
       display: flex;
       border: 1.5px solid black;
@@ -94,8 +94,8 @@ table {
      
       font-size: 24px;
       padding-bottom: 10px;
-      font-weight: bold;
-    }
+      /* font-weight: bold;*/
+    } 
 
 }
   
