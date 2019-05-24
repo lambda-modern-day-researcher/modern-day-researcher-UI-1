@@ -50,8 +50,9 @@ table {
 /* reset ends here */
 
 @media (max-width: 599px) {
-
+    
     .section {
+      
       /* display:hidden; */
         width: 80%;
         margin: 45px auto;
@@ -63,6 +64,7 @@ table {
         font-family: 'Pacifico', cursive; 
       }
       .section .box {
+        
         display: none;
         padding: 10px;
       }
@@ -78,6 +80,7 @@ table {
 @media (min-width: 600px) {
 
      .section {
+       
       width: 80%;
       margin: 45px auto;
       display: flex;
@@ -88,6 +91,7 @@ table {
       font-family: 'Pacifico', cursive;
     }
     .section .box {
+      
       padding: 40px;
     }
     .section .box .box-title {
