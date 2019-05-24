@@ -64,12 +64,12 @@ table {
   body {
     
     box-sizing: border-box;
-    /* min-width: 300px; */
+    
     margin: 0;
   }
   .header-container {
-    width: 100%;
-    height: 80px;
+    /* width: 100%;
+    height: 80px; */
     border-bottom: 1px solid black;
     display: inline;
     
@@ -78,7 +78,7 @@ table {
     background-color: rgb(226, 219, 114);
   }
    .header {
-    /* height: 30px; */
+    
     flex-direction: column;
     flex-wrap: wrap;
      
@@ -97,7 +97,7 @@ table {
 } 
 
 
-@media (max-width: 2000px) {
+@media (min-width: 601px) {
   
         
     body {

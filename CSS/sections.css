@@ -49,39 +49,40 @@ table {
 
 /* reset ends here */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     .section {
         width: 70%;
         margin: 45px auto;
         display: flex;
-        border: 1px solid grey;
-        box-shadow: 1px 1px 5px grey;
+        border: 1px solid black;
+        box-shadow: 1px 1px 5px black;
         border-radius: 10px;
         overflow: hidden;
-        font-family: 'Pacifico', cursive;
+        font-family: 'Pacifico', cursive; 
       }
       .section .box {
+        display: none;
         padding: 40px;
       }
       .section .box .box-title {
         
-        font-size: 24px;
+        font-size: 20px;
         padding-bottom: 10px;
         font-weight: bold;
         
       }
     } 
 
-@media (max-width: 2000px) {
+@media (min-width: 801px) {
 
      .section {
       width: 70%;
       margin: 45px auto;
       display: flex;
-      border: 1px solid grey;
-      box-shadow: 3px 3px 5px grey;
-      border-radius: 10px;
+      border: 1.5px solid black;
+      box-shadow: 3px 3px 5px black;
+      border-radius: 20px;
       overflow: hidden;
       font-family: 'Pacifico', cursive;
     }
