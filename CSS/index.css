@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+/* reset ends */
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -59,7 +62,7 @@ table {
  
   
   body {
-    background-color: whitesmoke;
+    /* background-color: black; */
     box-sizing: border-box;
     min-width: 300px;
     margin: 0;
@@ -67,91 +70,63 @@ table {
   .header-container {
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  linear-gradient(blue, whitesmoke);
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(226, 219, 114);
   }
   .header-container .header {
     height: 50px;
   }
-  .section {
-    width: 70%;
-    margin: 45px auto;
-    display: flex;
-    border: 1px solid grey;
-    box-shadow: 1px 1px 5px grey;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .section .box {
-    padding: 40px;
-  }
-  .section .box .box-title {
-    font-size: 24px;
-    padding-bottom: 10px;
-    font-weight: bold;
-  }
+  
   .footer-container {
     width: 100%;
     height: 70px;
+    font-family: 'Pacifico', cursive;
     border-bottom: 1px solid whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  linear-gradient(blue, lightgrey);
+    background-color: rgb(226, 219, 114);
   }
 } 
 
+
 @media (max-width: 2000px) {
-  
   
         
     body {
-        background-color: whitesmoke;
+        background-color: rgb(235, 175, 98);
       box-sizing: border-box;
       min-width: 300px;
       margin: 0;
     }
     .header-container {
       width: 100%;
-      height: 70px;
-      border-bottom: 1px solid whitesmoke;
+      height: 90px;
+      font-size: 2rem;
+      /* border-bottom: 1px solid whitesmoke; */
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image:  linear-gradient(blue, lightgrey);
+      font-family: 'Pacifico', cursive;
+      background-color: rgb(226, 219, 114);
     }
     .header-container .header {
-        color: whitesmoke;
+      color: black;
       height: 50px;
     }
-    .section {
-      width: 70%;
-      margin: 45px auto;
-      display: flex;
-      border: 1px solid grey;
-      box-shadow: 3px 3px 5px grey;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .section .box {
-      padding: 40px;
-    }
-    .section .box .box-title {
-      font-size: 24px;
-      padding-bottom: 10px;
-      font-weight: bold;
-    }
-  
+   
   .footer-container {
     width: 100%;
-    height: 70px;
-    border-bottom: 1px solid whitesmoke;
-    display: flex;
+    height: 150px;
+    border-bottom: 1px solid black;
+     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image:  linear-gradient(blue, lightgrey);
+    align-items: center; 
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(226, 219, 114);
   }
 }
